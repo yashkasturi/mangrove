@@ -30,6 +30,10 @@ def add_header(response):
     return response
 
 @app.route('/')
+def css12():
+    return "Hello"
+
+@app.route('/1')
 def css():
     return render_template('mangrove_Index.html')
 
