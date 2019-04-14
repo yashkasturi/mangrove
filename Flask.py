@@ -217,6 +217,9 @@ def main():
 		#cv2.waitKey(0)
 		return render_template('final.html',d=a,e=b,f=c)
 main()
+
+if __name__ == '__main__':
+    app.run()
  
  
 	
